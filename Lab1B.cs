@@ -30,15 +30,15 @@ public class Program
 	public void Grades (int value)
 	{
 		int baseGrade = 100;
-		if (baseGrade < value)
+		if (baseGrade >= 90) //Block of code that is executed when it is true
 		{
 			Console.WriteLine("A");
 		}
-		else if (baseGrade < value)
+		else if (baseGrade >= 80) //Block of code that is executed when the first condition is false
 		{
 			Console.WriteLine("B");
 		}
-		else
+		else //Block of code that is executed when the first and second condition is false
 		{
 			Console.WriteLine("C");
 		}
