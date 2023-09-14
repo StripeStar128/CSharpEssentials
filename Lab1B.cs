@@ -29,12 +29,12 @@ public class Program
 	//Challenge 2
 	public void Grades (int value)
 	{
-		int baseGrade = 100;
+		int baseGrade = value;
 		if (baseGrade >= 90) //Block of code that is executed when it is true
 		{
 			Console.WriteLine("A");
 		}
-		else if (baseGrade >= 80) //Block of code that is executed when the first condition is false
+		else if (baseGrade <= 89 && baseGrade >= 80) //Block of code that is executed when the first condition is false
 		{
 			Console.WriteLine("B");
 		}
